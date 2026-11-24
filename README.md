@@ -6,15 +6,15 @@ AI product leader in San Francisco (VP Product at [Green](https://green.com); pr
 
 ---
 
-## Hardware, LAN Lighting, Ergometer & Spatial 3D MCP Suite
+## Hardware, USB-C PD, LAN Lighting, Ergometer & Spatial 3D MCP Suite
 
-Eight clean-room C17, Swift, and Cloudflare Workers utilities (`142 KB` to `1.9 MB`, zero runtime dependencies, automatic rollback safety, and `--json` + MCP interfaces for humans and AI agents).
+Nine clean-room C17, Swift, and Cloudflare Workers utilities (`142 KB` to `1.9 MB`, zero runtime dependencies, automatic rollback safety, and `--json` + MCP interfaces for humans and AI agents).
 
 **Try the free core on macOS Apple Silicon in 10 seconds:**
 
 ```bash
 brew tap raydeoliveira/tap
-brew install edidsmith xrctl depthpipe glassweave stereoweave luxdmx ergctl
+brew install edidsmith xrctl depthpipe glassweave stereoweave luxdmx ergctl pdprobe
 ```
 
 **Or grab all 4 Spatial Wedge CLIs in one perpetual license:** [**Spatial 3D Wedge Complete Bundle ($49 one-time, save $57 vs. $106 separately)**](https://buy.polar.sh/polar_cl_KTtCY3iQC4bzjqp93aC6LCog8UZqzZzuDgkAs3BvF74) (includes 4 perpetual keys for 3 devices each, all 12 checksummed `.tar.gz`/`.mcpb` downloads, and unlocked calls on `spatial-mcp-worker`).
@@ -28,11 +28,12 @@ brew install edidsmith xrctl depthpipe glassweave stereoweave luxdmx ergctl
 | **[StereoWeave](https://github.com/raydeoliveira/stereoweave)** | `630 KB` | All-in-one Apple Silicon macOS EDID 3D/RGB-4:4:4 override, 8-layout Metal stereo weaver & MV-HEVC converter | Free Core / [$29 Pro](https://buy.polar.sh/polar_cl_MrcR0NZr2XlxyaOUb0Mb1LfcYkpRB95tdMtpr1Okyyf) | [Hub](https://www.raymonddeoliveira.com/software#stereoweave) · [Glama](https://glama.ai/mcp/servers/raydeoliveira/stereoweave) |
 | **[LuxDMX](https://github.com/raydeoliveira/luxdmx)** | `771 KB` | Zero-driver Art-Net 4 & E1.31 sACN LAN lighting CLI: CIE duv/gels, cinema fixtures & atomic scenes | Free Core / [$29 Pro](https://buy.polar.sh/polar_cl_Gk5jd6VHJSUwKgvf186L8EyTDH8s4OsNmQOvG491AaB) | [Hub](https://www.raymonddeoliveira.com/software#luxdmx) · [Glama](https://glama.ai/mcp/servers/raydeoliveira/luxdmx) |
 | **[Ergctl](https://github.com/raydeoliveira/ergctl)** | `1.90 MB` | Open Bluetooth SIG FTMS & Concept2 PM5 CLI, TUI, `.fit` export & live bidirectional AI-coaching loop | Free Core / [$29 Pro](https://polar.sh/raymond-de-oliveira) | [Hub](https://www.raymonddeoliveira.com/software#ergctl) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/ergctl) |
+| **[pdprobe](https://github.com/raydeoliveira/pdprobe)** | `212 KB` | C17 macOS & Linux USB-C PDO auditor, telemetry & PD/PPS trigger CLI (Apple Silicon IOKit, KM003C, FNB58) | Free Core / [$29 Pro](https://buy.polar.sh/polar_cl_oS3ab3YwDFdjshc4Fd3dTqa6cGsnJKJyHUnlt2fWdQz) | [Hub](https://www.raymonddeoliveira.com/software#pdprobe) · [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/pdprobe) |
 | **[Spatial MCP Oracle](https://github.com/raydeoliveira/spatial-mcp-worker)** | Cloud | Remote Streamable HTTP MCP on Cloudflare Workers for CVT-RB2 budgets, EDID patching & lenticular optics | Free / $0.005–$0.01 x402 | [Connector](https://glama.ai/mcp/connectors/io.github.raydeoliveira/spatial-mcp-worker) · [Hub](https://www.raymonddeoliveira.com/software#spatial-mcp-worker) |
 
 ### For AI Agents & MCP Clients
 - **Official MCP Registry:** `io.github.raydeoliveira/*` ([live registry query](https://registry.modelcontextprotocol.io/v0/servers?search=raydeoliveira))
-- **Agent Skills (`skills.sh`):** `npx skills add raydeoliveira/edidsmith`, `npx skills add raydeoliveira/luxdmx`, or `npx skills add raydeoliveira/ergctl` (available across repos)
+- **Agent Skills (`skills.sh`):** `npx skills add raydeoliveira/edidsmith`, `npx skills add raydeoliveira/luxdmx`, `npx skills add raydeoliveira/ergctl`, or `npx skills add raydeoliveira/pdprobe` (available across repos)
 - **Live Remote HTTP MCP:** `https://spatial-mcp-worker.raymond-deoliveira.workers.dev/mcp` ([Server Card](https://spatial-mcp-worker.raymond-deoliveira.workers.dev/.well-known/mcp/server-card.json))
 
 ---
