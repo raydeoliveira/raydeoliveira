@@ -1,20 +1,20 @@
 # Raymond de Oliveira
 
-AI product leader in San Francisco (VP Product at [Green](https://green.com); previously Klarity/Within, Limit, NEXT Insurance, and Bain). Outside my day job, I write algorithmic trading systems and build tiny, zero-dependency CLI utilities and MCP servers for 3D displays, AR glasses, and AI agents.
+AI product leader in San Francisco (VP Product at [Green](https://green.com); previously Klarity/Within, Limit, NEXT Insurance, and Bain). Outside my day job, I write algorithmic trading systems and build tiny, zero-dependency CLI utilities and MCP servers for 3D displays, AR glasses, Art-Net/sACN LAN lighting, and AI agents.
 
 **[Website](https://www.raymonddeoliveira.com)** · **[Software Hub](https://www.raymonddeoliveira.com/software)** · **[Polar Store ($49 Bundle)](https://polar.sh/raymond-de-oliveira)** · **[Glama Verified MCPs](https://glama.ai/mcp/servers?query=raydeoliveira)** · **[Substack](https://raymonddeoliveira.substack.com/)** · **[X (@rayofolives)](https://x.com/rayofolives)** · **[LinkedIn](https://www.linkedin.com/in/raymonddeoliveira)**
 
 ---
 
-## Spatial 3D Display & MCP Software Suite
+## Hardware, LAN Lighting & Spatial 3D MCP Suite
 
-Six clean-room C17, Swift, and Cloudflare Workers utilities (`142 KB` to `886 KB`, zero runtime dependencies, automatic 15-second hardware rollback, and `--json` + MCP interfaces for humans and AI agents).
+Seven clean-room C17, Swift, and Cloudflare Workers utilities (`142 KB` to `886 KB`, zero runtime dependencies, automatic 15-second hardware rollback, and `--json` + MCP interfaces for humans and AI agents).
 
 **Try the free core on macOS Apple Silicon in 10 seconds:**
 
 ```bash
 brew tap raydeoliveira/tap
-brew install edidsmith xrctl depthpipe glassweave stereoweave
+brew install edidsmith xrctl depthpipe glassweave stereoweave luxdmx
 ```
 
 **Or grab all 4 Spatial Wedge CLIs in one perpetual license:** [**Spatial 3D Wedge Complete Bundle ($49 one-time, save $57 vs. $106 separately)**](https://buy.polar.sh/polar_cl_KTtCY3iQC4bzjqp93aC6LCog8UZqzZzuDgkAs3BvF74) (includes 4 perpetual keys for 3 devices each, all 12 checksummed `.tar.gz`/`.mcpb` downloads, and unlocked calls on `spatial-mcp-worker`).
@@ -26,11 +26,12 @@ brew install edidsmith xrctl depthpipe glassweave stereoweave
 | **[DepthPipe](https://github.com/raydeoliveira/depthpipe)** | `857 KB` | Live Metal DIBR 2D-to-3D depth weaving, CoreML Depth Anything V2, MV-HEVC Spatial Video & SteamOS Vulkan layer | Free Core / [$29 Pro](https://buy.polar.sh/polar_cl_pM3CJwYQ9ilUfvBxDVLf0iMGnTBJltLssCFFj1YSozm) | [Hub](https://www.raymonddeoliveira.com/software#depthpipe) · [Glama](https://glama.ai/mcp/servers/raydeoliveira/depthpipe) |
 | **[GlassWeave](https://github.com/raydeoliveira/glassweave)** | `849 KB` | Cross-OS eye-tracked glasses-free 3D display CLI (Samsung Odyssey 3D, Acer SpatialLabs, ASUS, Lenovo) | Free Core / [$29 Pro](https://buy.polar.sh/polar_cl_RVXA4XqANyC7aXm12WybluTFQ7u2cxvoClgln2MWxuk) | [Hub](https://www.raymonddeoliveira.com/software#glassweave) · [Glama](https://glama.ai/mcp/servers/raydeoliveira/glassweave) |
 | **[StereoWeave](https://github.com/raydeoliveira/stereoweave)** | `630 KB` | All-in-one Apple Silicon macOS EDID 3D/RGB-4:4:4 override, 8-layout Metal stereo weaver & MV-HEVC converter | Free Core / [$29 Pro](https://buy.polar.sh/polar_cl_MrcR0NZr2XlxyaOUb0Mb1LfcYkpRB95tdMtpr1Okyyf) | [Hub](https://www.raymonddeoliveira.com/software#stereoweave) · [Glama](https://glama.ai/mcp/servers/raydeoliveira/stereoweave) |
+| **[LuxDMX](https://github.com/raydeoliveira/luxdmx)** | `771 KB` | Zero-driver Art-Net 4 & E1.31 sACN LAN lighting CLI: CIE duv/gels, cinema fixtures & atomic scenes | Free Core / $29 Pro (pending Polar) | [Hub](https://www.raymonddeoliveira.com/software#luxdmx) · [Releases](https://github.com/raydeoliveira/luxdmx/releases/tag/v0.1.0) · [MCP](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/luxdmx) |
 | **[Spatial MCP Oracle](https://github.com/raydeoliveira/spatial-mcp-worker)** | Cloud | Remote Streamable HTTP MCP on Cloudflare Workers for CVT-RB2 budgets, EDID patching & lenticular optics | Free / $0.005–$0.01 x402 | [Connector](https://glama.ai/mcp/connectors/io.github.raydeoliveira/spatial-mcp-worker) · [Hub](https://www.raymonddeoliveira.com/software#spatial-mcp-worker) |
 
 ### For AI Agents & MCP Clients
 - **Official MCP Registry:** `io.github.raydeoliveira/*` ([live registry query](https://registry.modelcontextprotocol.io/v0/servers?search=raydeoliveira))
-- **Agent Skills (`skills.sh`):** `npx skills add raydeoliveira/edidsmith` (available across all 6 repos)
+- **Agent Skills (`skills.sh`):** `npx skills add raydeoliveira/edidsmith` or `npx skills add raydeoliveira/luxdmx` (available across all 7 repos)
 - **Live Remote HTTP MCP:** `https://spatial-mcp-worker.raymond-deoliveira.workers.dev/mcp` ([Server Card](https://spatial-mcp-worker.raymond-deoliveira.workers.dev/.well-known/mcp/server-card.json))
 
 ---
