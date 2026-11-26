@@ -2,7 +2,7 @@
 
 AI product leader in San Francisco (VP Product at [Green](https://green.com); previously Klarity/Within, Limit, NEXT Insurance, and Bain). Outside my day job, I write algorithmic trading systems and build tiny, zero-dependency CLI utilities and MCP servers for 3D displays, AR glasses, Art-Net/sACN LAN lighting, and AI agents.
 
-**[Website](https://www.raymonddeoliveira.com)** · **[Software Hub](https://www.raymonddeoliveira.com/software)** · **[Polar Store ($49 Bundle)](https://polar.sh/raymond-de-oliveira)** · **[Glama Verified MCPs](https://glama.ai/mcp/servers?query=raydeoliveira)** · **[Substack](https://raymonddeoliveira.substack.com/)** · **[X (@rayofolives)](https://x.com/rayofolives)** · **[LinkedIn](https://www.linkedin.com/in/raymonddeoliveira)**
+**[Website](https://www.raymonddeoliveira.com)** · **[Software Hub](https://www.raymonddeoliveira.com/software)** · **[Spatial 3D bundle ($49)](https://www.raymonddeoliveira.com/software#bundle)** · **[Glama Verified MCPs](https://glama.ai/mcp/servers?query=raydeoliveira)** · **[Substack](https://raymonddeoliveira.substack.com/)** · **[X (@rayofolives)](https://x.com/rayofolives)** · **[LinkedIn](https://www.linkedin.com/in/raymonddeoliveira)**
 
 ---
 
